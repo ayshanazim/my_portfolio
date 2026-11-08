@@ -1,0 +1,516 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="Aysha N - Python Full Stack Developer Portfolio. Explore my skills, projects and internship experience.">
+
+    <title>Aysha N | Python Full Stack Developer</title>
+
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+
+<body>
+<body>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar">
+
+        <!-- <div class="logo">
+            Aysha.
+        </div> -->
+
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#certifications">Certifications</a></li>
+            <li><a href="#qualities">More About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+    </nav>
+<!-- Hero Section -->
+
+<section class="hero" id="home">
+
+    <div class="hero-content">
+
+        <p class="greeting">HELLO, I'M</p>
+
+        <h1>Aysha N</h1>
+
+        <h2>Python Full Stack Developer</h2>
+
+        <p class="description">
+            I am a Computer Science Engineering graduate
+            passionate about Python, web development
+            and building creative solutions.
+        </p>
+
+        <div class="hero-buttons">
+    <a href="#projects" class="btn">View My Work</a>
+
+    <a href="#contact" class="btn btn-outline">Contact Me</a>
+
+    <a href="{% static 'files/AyshaNResume.pdf' %}"
+       download
+       class="btn">
+        Download Resume
+    </a>
+</div>
+
+    </div>
+
+    <div class="hero-image">
+
+        <img src="{% static 'images/profile.jpeg' %}"
+             alt="Aysha's profile photograph">
+
+    </div>
+
+</section>
+<!-- About Section -->
+
+<section class="about" id="about">
+
+    <div class="about-content">
+
+        <p class="section-label">GET TO KNOW ME</p>
+
+        <h2>About Me</h2>
+
+        <p>
+            I am a Computer Science Engineering graduate
+            with an interest in software development and
+            technology.
+        </p>
+
+        <p>
+            Currently, I am learning Python Full Stack
+            Development, where I am gaining practical
+            knowledge of Python, HTML, CSS, JavaScript
+            and Django.
+        </p>
+
+        <p>
+            I enjoy learning new technologies, solving
+            problems and building applications that
+            provide useful solutions.
+        </p>
+
+    </div>
+
+</section>
+
+
+<!-- Skills Section -->
+
+<section class="skills" id="skills">
+
+    <div class="skills-content">
+
+        <p class="section-label">WHAT I WORK WITH</p>
+
+        <h2>My Technical Skills</h2>
+
+        <p class="skills-description">
+            Technologies and tools I have learned
+            and worked with.
+        </p>
+
+        <div class="skills-container">
+
+            <div class="skill-card">
+                <h3>Python</h3>
+                <p>Programming Language</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Django</h3>
+                <p>Backend Framework</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>HTML</h3>
+                <p>Web Structure</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>CSS</h3>
+                <p>Web Styling</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>JavaScript</h3>
+                <p>Web Interactivity</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>SQL</h3>
+                <p>Database Management</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>C</h3>
+                <p>Programming Language</p>
+            </div>
+
+            <div class="skill-card">
+                <h3>Java</h3>
+                <p>Programming Language</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Projects Section -->
+
+<section class="projects" id="projects">
+
+    <div class="projects-content">
+
+        <p class="section-label">MY RECENT WORK</p>
+
+        <h2>Featured Projects</h2>
+
+        <p class="projects-description">
+            Some projects that showcase my learning
+            and development journey.
+        </p>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+
+                <div class="project-info">
+
+                    <h3>Smart Traffic Management System</h3>
+
+                    <p>
+                        A computer vision-based traffic
+                        management system that detects and
+                        counts vehicles using YOLO and OpenCV.
+                        It dynamically prioritizes lanes with
+                        higher traffic density and gives
+                        priority to emergency vehicles.
+                    </p>
+
+                    <div class="tech-stack">
+                        <span>Python</span>
+                        <span>YOLO</span>
+                        <span>OpenCV</span>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <!-- Expense Tracker -->
+
+<div class="project-card">
+
+    <div class="project-info">
+
+        <h3>Expense Tracker</h3>
+
+        <p>
+            Developed a web application that allows users
+            to log in, add and manage their daily expenses.
+            The application uses a custom backend and
+            database to store and retrieve expense data.
+        </p>
+
+        <div class="tech-stack">
+            <span>Python</span>
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>Database</span>
+        </div>
+
+    </div>
+
+</div>
+
+<!-- Movie Ticket Booking System -->
+
+<div class="project-card">
+
+    <div class="project-info">
+
+        <h3>Movie Ticket Booking System</h3>
+
+        <p>
+            Developed an application that allows users
+            to browse and book movie tickets using
+            Python for backend development and SQL
+            for database management.
+        </p>
+
+        <div class="tech-stack">
+            <span>Python</span>
+            <span>SQL</span>
+            <span>Database</span>
+        </div>
+
+    </div>
+
+</div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Contact Section -->
+
+<section class="contact" id="contact">
+
+    <div class="contact-content">
+
+        <p class="section-label">GET IN TOUCH</p>
+
+        <h2>Let's Connect</h2>
+
+        <p>
+            I am open to opportunities, collaborations
+            and interesting projects. Feel free to contact me!
+        </p>
+
+        <div class="contact-details">
+
+            <p>
+                <strong>Email:</strong>
+                <a href="mailto:ayshanazim7777@gmail.com">
+                    ayshanazim7777@gmail.com
+                </a>
+            </p>
+
+            <p>
+                <strong>Location:</strong> Trivandrum, India
+            </p>
+
+            <p>
+                <strong>LinkedIn:</strong>
+                <a href="https://linkedin.com/in/aysha-n-b85239325"
+                   target="_blank">
+                    Visit my LinkedIn
+                </a>
+            </p>
+            
+            <p>
+    <strong>GitHub:</strong>
+    <a href="https://github.com/ayshanazim"
+       target="_blank"
+       rel="noopener noreferrer">
+        Visit My GitHub
+    </a>
+</p>
+
+        </div>
+
+        <a href="mailto:ayshanazim7777@gmail.com"
+           class="btn">
+            Send Me an Email
+        </a>
+
+    </div>
+
+</section>
+
+<!-- Experience Section -->
+
+<section class="experience" id="experience">
+
+    <div class="experience-content">
+
+        <p class="section-label">MY JOURNEY</p>
+
+        <h2>Internship Experience</h2>
+
+        <div class="experience-container">
+
+            <div class="experience-card">
+
+                <h3>Python Full Stack Developer Intern</h3>
+
+                <h4>SMEC Technologies Pvt. Ltd.</h4>
+
+                <span>2026 – Present</span>
+
+                <p>
+                    Developing web application components using
+                    Python, JavaScript, HTML and CSS.
+                    Working on responsive interfaces, backend
+                    logic and application features.
+                </p>
+
+            </div>
+
+            <div class="experience-card">
+
+                <h3>Python Developer Intern</h3>
+
+                <h4>Systems2Cloud</h4>
+
+                <span>June 2025</span>
+
+                <p>
+                    Worked on Python-based web features,
+                    frontend modules and integration of
+                    frontend and backend components.
+                </p>
+
+            </div>
+
+            <div class="experience-card">
+
+                <h3>Cybersecurity Intern</h3>
+
+                <h4>Retechnox Technologies LLP</h4>
+
+                <span>January 2025</span>
+
+                <p>
+                    Studied cybersecurity threats and ethical
+                    hacking concepts through guided internship
+                    work and supervised practical exercises.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Education Section -->
+
+<section class="education" id="education">
+
+    <div class="education-content">
+
+        <p class="section-label">MY ACADEMIC BACKGROUND</p>
+
+        <h2>Education</h2>
+
+        <div class="education-card">
+
+            <h3>Bachelor of Technology</h3>
+
+            <h4>Computer Science Engineering</h4>
+
+            <p>College of Engineering Pathanapuram</p>
+
+            <div class="education-details">
+                <span>April 2026</span>
+                <span>GPA: 7.36</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Certifications Section -->
+
+<section class="certifications" id="certifications">
+
+    <div class="certifications-content">
+
+        <p class="section-label">MY ACHIEVEMENTS</p>
+
+        <h2>Certifications</h2>
+
+        <div class="certifications-container">
+
+            <div class="certificate-card">
+
+                <h3>Workshop on Web Designing</h3>
+
+                <p>IEEE SB PE</p>
+
+            </div>
+
+            <div class="certificate-card">
+
+                <h3>Application of Machine Learning Satellite Using Python</h3>
+
+                <p>APJ Abdul Kalam Technological University</p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Languages and Soft Skills Section -->
+
+<section class="qualities" id="qualities">
+
+    <div class="qualities-content">
+
+        <p class="section-label">BEYOND TECHNICAL SKILLS</p>
+
+        <h2>Languages & Soft Skills</h2>
+
+        <div class="qualities-container">
+
+            <!-- Languages -->
+
+            <div class="quality-card">
+
+                <h3>Languages</h3>
+
+                <ul>
+                    <li>English</li>
+                    <li>Malayalam</li>
+                    <li>Hindi</li>
+                </ul>
+
+            </div>
+
+            <!-- Soft Skills -->
+
+            <div class="quality-card">
+
+                <h3>Soft Skills</h3>
+
+                <ul>
+                    <li>Communication</li>
+                    <li>Teamwork and Collaboration</li>
+                    <li>Leadership</li>
+                    <li>Presentation Skills</li>
+                    <li>Problem Solving</li>
+                </ul>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+<footer class="footer">
+    <p>© 2026 Aysha N. All Rights Reserved.</p>
+    <p>Designed & Developed by Aysha</p>
+</footer>
+</body>
+</html>
